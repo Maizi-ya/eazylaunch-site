@@ -50,17 +50,17 @@
   },
   "download": {
     "pageTitle": "EazyLaunch をダウンロード",
-    "pageDesc": "macOS 用に EazyLaunch を入手。無料！",
+    "pageDesc": "macOS 用に EazyLaunch を入手하세요。無料！",
     "mac": {
       "title": "macOS",
       "desc": "macOS 12 以降に対応",
       "version": "バージョン 1.0.0 • 3.1 MB",
-      "btn": "Mac용 다운로드"
-    },
+      "btn": "Mac用をダウンロード"
+    }
   },
   "docs": {
     "pageTitle": "ドキュメント",
-    "pageDesc": "EazyLaunch について你需要知道的一切。",
+    "pageDesc": "EazyLaunchについて你需要知道的一切。",
     "gettingStarted": "はじめに",
     "gsDesc": "EazyLaunch は、アプリケーション、ファイル、フォルダーをミリ秒単位で開くことができるスマートなアプリランチャーです。",
     "installation": "インストール手順",

@@ -93,9 +93,11 @@ function initLangSwitcher() {
   });
 
   switcher.querySelectorAll('.lang-option').forEach(option => {
-    option.addEventListener('click', () => {
+    option.addEventListener('click', (e) => {
+      e.stopPropagation();
       const locale = option.getAttribute('data-locale');
       i18n.switchLocale(locale);
+      switcher.classList.remove('active');
     });
   });
 }

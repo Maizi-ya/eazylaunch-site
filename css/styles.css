@@ -40,6 +40,7 @@ a { text-decoration: none; color: inherit; }
   border-bottom: 1px solid var(--border);
   z-index: 1000;
   padding: 0 2rem;
+  overflow: visible;
 }
 
 .navbar .container {

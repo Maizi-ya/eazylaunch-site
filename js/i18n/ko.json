@@ -12,7 +12,7 @@
     "ctaSecondary": "자세히 보기"
   },
   "features": {
-    "title": "왜 EazyLaunch인가?",
+    "title":"왜 EazyLaunch인가?",
     "free": {
       "title": "무료",
       "desc": "숨겨진 비용이나 프리미엄 페이월 없이 완전히 무료로 사용 가능."
@@ -56,7 +56,7 @@
       "desc": "macOS 12 이상 호환",
       "version": "버전 1.0.0 • 3.1 MB",
       "btn": "Mac용 다운로드"
-    },
+    }
   },
   "docs": {
     "pageTitle": "문서",
