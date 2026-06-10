@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "docs": "Documentation",
+    "download": "Télécharger"
+  },
+  "hero": {
+    "title": "Vos applications,",
+    "titleHighlight": "À un clic de distance",
+    "subtitle": "EazyLaunch est un lanceur d'applications ultra-rapide qui vous aide à ouvrir n'importe quoi en quelques secondes.",
+    "cta": "Commencer",
+    "ctaSecondary": "En savoir plus"
+  },
+  "features": {
+    "title": "Pourquoi EazyLaunch ?",
+    "free": {
+      "title": "Gratuit",
+      "desc": "Entièrement gratuit sans coûts cachés ni murs de paiement premium."
+    },
+    "custom": {
+      "title": "Fond Personnalisable",
+      "desc": "Personnalisez votre lanceur avec des fonds d'écran et des thèmes personnalisés."
+    }
+  },
+  "howItWorks": {
+    "title": "Comment Ça Marche",
+    "step1": {
+      "title": "Installer EazyLaunch",
+      "desc": "Téléchargez et installez l'application sur votre Mac."
+    },
+    "step2": {
+      "title": "Ouvrir Terminal",
+      "desc": "Ouvrez Terminal et exécutez :\nxattr -cr /Applications/EazyLaunch.app"
+    },
+    "step3": {
+      "title": "Lancer",
+      "desc": "Cliquez sur l'icône dans le Dock ou la barre de menu pour commencer."
+    }
+  },
+  "cta": {
+    "title": "Prêt à accélérer votre flux de travail ?",
+    "desc": "Rejoignez des milliers d'utilisateurs qui ont lancé des millions d'apps avec EazyLaunch.",
+    "button": "Télécharger"
+  },
+  "footer": {
+    "features": "Fonctionnalités",
+    "docs": "Documentation",
+    "download": "Télécharger",
+    "copyright": "© 2026 EazyLaunch. Tous droits réservés."
+  },
+  "download": {
+    "pageTitle": "Télécharger EazyLaunch",
+    "pageDesc": "Obtenez EazyLaunch pour macOS. C'est gratuit !",
+    "mac": {
+      "title": "macOS",
+      "desc": "Compatible avec macOS 26 et versions ultérieures",
+      "version": "Version 1.0.0 • 15.2 MB"
+    },
+  },
+  "docs": {
+    "pageTitle": "Documentation",
+    "pageDesc": "Tout ce que vous devez savoir sur EazyLaunch.",
+    "gettingStarted": "Pour Commencer",
+    "gsDesc": "EazyLaunch est un lanceur d'applications intelligent qui vous aide à ouvrir des applications, des fichiers et des dossiers en millisecondes.",
+    "installation": "Installation",
+    "instStep1": "Téléchargez EazyLaunch depuis notre site web",
+    "instStep2": "Ouvrez le fichier DMG téléchargé",
+    "instStep3": "Faites glisser EazyLaunch vers votre dossier Applications",
+    "instStep4": "Lancez EazyLaunch depuis Applications",
+    "faq": "FAQ",
+    "faq1": {
+      "q": "EazyLaunch est-il gratuit ?",
+      "a": "Oui, EazyLaunch est entièrement gratuit."
+    },
+    "faq2": {
+      "q": "EazyLaunch s'exécute-t-il en arrière-plan ?",
+      "a": "Oui, EazyLaunch s'exécute silencieusement dans votre barre de menu."
+    },
+    "faq3": {
+      "q": "Comment désinstaller EazyLaunch ?",
+      "a": "Il suffit de faire glisser EazyLaunch d'Applications vers la Corbeille."
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "features": "Features",
+    "docs": "Docs",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Your Apps,",
+    "titleHighlight": "One Click Away",
+    "subtitle": "EazyLaunch is a lightning-fast app launcher that helps you open anything in seconds.",
+    "cta": "Get Started",
+    "ctaSecondary": "Learn More"
+  },
+  "features": {
+    "title": "Why EazyLaunch?",
+    "free": {
+      "title": "Free",
+      "desc": "Completely free to use with no hidden costs or premium paywalls."
+    },
+    "custom": {
+      "title": "Custom Background",
+      "desc": "Personalize your launcher with custom wallpapers and themes."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Install EazyLaunch",
+      "desc": "Download and install the app on your Mac."
+    },
+    "step2": {
+      "title": "Open Terminal",
+      "desc": "Open Terminal and run:\nxattr -cr /Applications/EazyLaunch.app"
+    },
+    "step3": {
+      "title": "Launch",
+      "desc": "Click the icon in the Dock or menu bar to start using."
+    }
+  },
+  "cta": {
+    "title": "Ready to Speed Up Your Workflow?",
+    "desc": "Join thousands of users who launched millions of apps with EazyLaunch.",
+    "button": "Download Now"
+  },
+  "footer": {
+    "features": "Features",
+    "docs": "Documentation",
+    "download": "Download",
+    "copyright": "© 2026 EazyLaunch. All rights reserved."
+  },
+  "download": {
+    "pageTitle": "Download EazyLaunch",
+    "pageDesc": "Get EazyLaunch for macOS. It's free!",
+    "mac": {
+      "title": "macOS",
+      "desc": "Compatible with macOS 26 and later",
+      "version": "Version 1.0.0 • 15.2 MB"
+    },
+  },
+  "docs": {
+    "pageTitle": "Documentation",
+    "pageDesc": "Everything you need to know about EazyLaunch.",
+    "gettingStarted": "Getting Started",
+    "gsDesc": "EazyLaunch is a smart app launcher that helps you open applications, files, and folders in milliseconds.",
+    "installation": "Installation",
+    "instStep1": "Download EazyLaunch from our website",
+    "instStep2": "Open the downloaded DMG file",
+    "instStep3": "Drag EazyLaunch to your Applications folder",
+    "instStep4": "Launch EazyLaunch from Applications",
+    "faq": "FAQ",
+    "faq1": {
+      "q": "Is EazyLaunch free?",
+      "a": "Yes, EazyLaunch is completely free to use."
+    },
+    "faq2": {
+      "q": "Does EazyLaunch run in the background?",
+      "a": "Yes, EazyLaunch runs quietly in your menu bar."
+    },
+    "faq3": {
+      "q": "How do I uninstall EazyLaunch?",
+      "a": "Simply drag EazyLaunch from Applications to Trash."
+    }
+  }
+}

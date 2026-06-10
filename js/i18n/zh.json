@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "features": "功能特点",
+    "docs": "使用文档",
+    "download": "下载"
+  },
+  "hero": {
+    "title": "你的应用，",
+    "titleHighlight": "触手可及",
+    "subtitle": "EazyLaunch 是一款极速应用启动器，帮助你瞬间打开任何应用。",
+    "cta": "立即开始",
+    "ctaSecondary": "了解更多"
+  },
+  "features": {
+    "title": "为什么选择 EazyLaunch？",
+    "free": {
+      "title": "免费",
+      "desc": "完全免费使用，无隐藏费用或高级付费墙。"
+    },
+    "custom": {
+      "title": "自定义背景",
+      "desc": "使用自定义壁纸和主题个性化你的启动器。"
+    }
+  },
+  "howItWorks": {
+    "title": "如何使用",
+    "step1": {
+      "title": "安装 EazyLaunch",
+      "desc": "在 Mac 上下载安装 EazyLaunch。"
+    },
+    "step2": {
+      "title": "打开终端",
+      "desc": "打开终端并运行：\nxattr -cr /Applications/EazyLaunch.app"
+    },
+    "step3": {
+      "title": "启动",
+      "desc": "点击 Dock 栏或菜单栏图标即可开始使用。"
+    }
+  },
+  "cta": {
+    "title": "准备好提升工作效率了吗？",
+    "desc": "加入数以千计的用户，通过 EazyLaunch 启动数百万次应用。",
+    "button": "立即下载"
+  },
+  "footer": {
+    "features": "功能特点",
+    "docs": "使用文档",
+    "download": "下载",
+    "copyright": "© 2026 EazyLaunch. 保留所有权利。"
+  },
+  "download": {
+    "pageTitle": "下载 EazyLaunch",
+    "pageDesc": "为 macOS 获取 EazyLaunch。免费使用！",
+    "mac": {
+      "title": "macOS",
+      "desc": "兼容 macOS 26 及以上版本",
+      "version": "版本 1.0.0 • 15.2 MB"
+    },
+  },
+  "docs": {
+    "pageTitle": "使用文档",
+    "pageDesc": "了解关于 EazyLaunch 的一切。",
+    "gettingStarted": "快速开始",
+    "gsDesc": "EazyLaunch 是一款智能应用启动器，帮助你在毫秒内打开应用、文件和文件夹。",
+    "installation": "安装步骤",
+    "instStep1": "从官网下载 EazyLaunch",
+    "instStep2": "打开下载的 DMG 文件",
+    "instStep3": "将 EazyLaunch 拖入应用程序文件夹",
+    "instStep4": "从应用程序中启动 EazyLaunch",
+    "faq": "常见问题",
+    "faq1": {
+      "q": "EazyLaunch 是免费的吗？",
+      "a": "是的，EazyLaunch 完全免费使用。"
+    },
+    "faq2": {
+      "q": "EazyLaunch 会在后台运行吗？",
+      "a": "是的，EazyLaunch 会在菜单栏中静默运行。"
+    },
+    "faq3": {
+      "q": "如何卸载 EazyLaunch？",
+      "a": "只需将 EazyLaunch 从应用程序文件夹拖到废纸篓即可。"
+    }
+  }
+}

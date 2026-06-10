@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "features": "기능",
+    "docs": "문서",
+    "download": "다운로드"
+  },
+  "hero": {
+    "title": "당신의 앱이,",
+    "titleHighlight": "한 번의 클릭으로",
+    "subtitle": "EazyLaunch는 당신이 수초 만에 무엇이든 열 수 있도록 도와주는 초고속 앱런처입니다.",
+    "cta": "시작하기",
+    "ctaSecondary": "자세히 보기"
+  },
+  "features": {
+    "title": "왜 EazyLaunch인가?",
+    "free": {
+      "title": "무료",
+      "desc": "숨겨진 비용이나 프리미엄 페이월 없이 완전히 무료로 사용 가능."
+    },
+    "custom": {
+      "title": "사용자 정의 배경",
+      "desc": "사용자 정의 배경화면과 테마로 런처를 개인화하세요."
+    }
+  },
+  "howItWorks": {
+    "title": "작동 방식",
+    "step1": {
+      "title": "EazyLaunch 설치",
+      "desc": "Mac에 EazyLaunch를 다운로드하여 설치하세요."
+    },
+    "step2": {
+      "title": "터미널 열기",
+      "desc": "터미널을 열고 다음을 실행하세요：\nxattr -cr /Applications/EazyLaunch.app"
+    },
+    "step3": {
+      "title": "실행",
+      "desc": "Dock 또는 메뉴 모음의 아이콘을 클릭하여 사용을 시작하세요."
+    }
+  },
+  "cta": {
+    "title": "워크플로우 향상을 준비하셨나요?",
+    "desc": "수천 명의 사용자들과 함께 EazyLaunch로 수백만 개의 앱을 실행하세요.",
+    "button": "지금 다운로드"
+  },
+  "footer": {
+    "features": "기능",
+    "docs": "문서",
+    "download": "다운로드",
+    "copyright": "© 2026 EazyLaunch. All rights reserved."
+  },
+  "download": {
+    "pageTitle": "EazyLaunch 다운로드",
+    "pageDesc": "macOS용 EazyLaunch를入手하세요. 무료!",
+    "mac": {
+      "title": "macOS",
+      "desc": "macOS 26 이상 호환",
+      "version": "버전 1.0.0 • 15.2 MB"
+    },
+  },
+  "docs": {
+    "pageTitle": "문서",
+    "pageDesc": "EazyLaunch에 대해 알아야 할 모든 것.",
+    "gettingStarted": "시작하기",
+    "gsDesc": "EazyLaunch는 앱, 파일 및 폴더를 밀리초 만에 열 수 있는 스마트 앱 런처입니다.",
+    "installation": "설치手順",
+    "instStep1": "공식 웹사이트에서 EazyLaunch 다운로드",
+    "instStep2": "다운로드한 DMG 파일 열기",
+    "instStep3": "EazyLaunch를 Applications 폴더로 드래그",
+    "instStep4": "Applications에서 EazyLaunch 실행",
+    "faq": "자주 묻는 질문",
+    "faq1": {
+      "q": "EazyLaunch은 무료인가요?",
+      "a": "네, EazyLaunch는 완전히 무료로 사용할 수 있습니다."
+    },
+    "faq2": {
+      "q": "EazyLaunch가 백그라운드에서 실행되나요?",
+      "a": "네, EazyLaunch는 메뉴 바에서 조용히 실행됩니다."
+    },
+    "faq3": {
+      "q": "EazyLaunch를アンインストール하려면 어떻게 해야 하나요?",
+      "a": "Applications에서 EazyLaunch를 휴지통으로 드래그하면 됩니다."
+    }
+  }
+}

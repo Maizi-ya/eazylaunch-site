@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EazyLaunch - Your Smart App Launcher</title>
+  <meta name="description" content="EazyLaunch is a lightning-fast app launcher for macOS. Open apps, files, and folders in milliseconds.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#hero" class="logo">EazyLaunch</a>
+      <div class="nav-links">
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#download" data-i18n="nav.download" class="btn-primary">Download</a>
+        
+        <!-- Language Switcher -->
+        <div class="lang-switcher">
+          <span class="lang-current">English</span>
+          <div class="lang-dropdown">
+            <div class="lang-option" data-locale="en">English</div>
+            <div class="lang-option" data-locale="zh">中文</div>
+            <div class="lang-option" data-locale="ja">日本語</div>
+            <div class="lang-option" data-locale="ko">한국어</div>
+            <div class="lang-option" data-locale="es">Español</div>
+            <div class="lang-option" data-locale="fr">Français</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h1><span data-i18n="hero.title">Your Apps,</span><br>
+      <span class="gradient-text" data-i18n="hero.titleHighlight">One Click Away</span></h1>
+    <p data-i18n="hero.subtitle">EazyLaunch is a lightning-fast app launcher that helps you open anything in seconds.</p>
+    <div class="hero-buttons">
+      <a href="#download" class="btn-primary" data-i18n="hero.cta">Get Started</a>
+      <a href="#features" class="btn-secondary" data-i18n="hero.ctaSecondary">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2 data-i18n="features.title">Why EazyLaunch?</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="icon">🆓</div>
+        <h3 data-i18n="features.free.title">Free</h3>
+        <p data-i18n="features.free.desc">Completely free to use with no hidden costs or premium paywalls.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">🎨</div>
+        <h3 data-i18n="features.custom.title">Custom Background</h3>
+        <p data-i18n="features.custom.desc">Personalize your launcher with custom wallpapers and themes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="how-it-works">
+    <h2 data-i18n="howItWorks.title">How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3 data-i18n="howItWorks.step1.title">Install EazyLaunch</h3>
+        <p data-i18n="howItWorks.step1.desc">Download and install the app on your Mac.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3 data-i18n="howItWorks.step2.title">Open Terminal</h3>
+        <p data-i18n="howItWorks.step2.desc">Open Terminal and run:
+xattr -cr /Applications/EazyLaunch.app</p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3 data-i18n="howItWorks.step3.title">Launch</h3>
+        <p data-i18n="howItWorks.step3.desc">Click the icon in the Dock or menu bar to start using.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="download-section">
+    <h2 data-i18n="download.pageTitle">Download EazyLaunch</h2>
+    <p class="section-desc" data-i18n="download.pageDesc">Get EazyLaunch for macOS. It's free!</p>
+    
+    <div class="download-card">
+      <div class="download-info">
+        <h3 data-i18n="download.mac.title">macOS</h3>
+        <p data-i18n="download.mac.desc">Compatible with macOS 12 and later</p>
+        <span class="version-info" data-i18n="download.mac.version">Version 1.0.0 • 15.2 MB</span>
+      </div>
+      <a href="#" class="btn-primary">Download for Mac</a>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="#features" data-i18n="footer.features">Features</a>
+      <a href="#download" data-i18n="footer.download">Download</a>
+    </div>
+    <p data-i18n="footer.copyright">© 2026 EazyLaunch. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
