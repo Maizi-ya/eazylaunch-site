@@ -100,8 +100,54 @@ function initLangSwitcher() {
   });
 }
 
+// ========== Download Handler ==========
+function initDownloadHandler() {
+  const btn = document.getElementById('download-mac-btn');
+  if (!btn) return;
+
+  btn.addEventListener('click', async (e) => {
+    e.preventDefault();
+    const originalText = btn.textContent;
+    btn.textContent = 'Downloading...';
+    btn.classList.add('loading');
+    btn.style.pointerEvents = 'none';
+
+    try {
+      const response = await fetch('/EazyLaunch-dmg.zip');
+      if (!response.ok) throw new Error('Download failed');
+
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'EazyLaunch-dmg.zip';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      console.error(err);
+      btn.textContent = 'Download failed — Try again';
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.classList.remove('loading');
+        btn.style.pointerEvents = '';
+      }, 3000);
+      return;
+    }
+
+    btn.textContent = 'Downloaded!';
+    setTimeout(() => {
+      btn.textContent = originalText;
+      btn.classList.remove('loading');
+      btn.style.pointerEvents = '';
+    }, 2000);
+  });
+}
+
 // ========== Init ==========
 document.addEventListener('DOMContentLoaded', async () => {
   await i18n.init();
   initLangSwitcher();
+  initDownloadHandler();
 });

@@ -53,8 +53,9 @@
     "pageDesc": "为 macOS 获取 EazyLaunch。免费使用！",
     "mac": {
       "title": "macOS",
-      "desc": "兼容 macOS 26 及以上版本",
-      "version": "版本 1.0.0 • 15.2 MB"
+      "desc": "兼容 macOS 12 及以上版本",
+      "version": "版本 1.0.0 • 3.1 MB",
+      "btn": "下载 Mac 版"
     },
   },
   "docs": {

@@ -53,8 +53,9 @@
     "pageDesc": "macOS용 EazyLaunch를入手하세요. 무료!",
     "mac": {
       "title": "macOS",
-      "desc": "macOS 26 이상 호환",
-      "version": "버전 1.0.0 • 15.2 MB"
+      "desc": "macOS 12 이상 호환",
+      "version": "버전 1.0.0 • 3.1 MB",
+      "btn": "Mac용 다운로드"
     },
   },
   "docs": {
